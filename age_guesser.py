@@ -3,8 +3,8 @@ import random
 def guessAge():
     print("Hello! Im going to try to guess your age.")
     name = input("What's your name? ")
-    minAge = 15
-    maxAge = 30
+    minAge = 1
+    maxAge = 100
     guessed = False
 
     while not guessed:
@@ -23,5 +23,5 @@ def guessAge():
             print("Rats")
         else:
             print("Please enter 'y' for yes or 'n' for no.")
-            
+
 guessAge()
