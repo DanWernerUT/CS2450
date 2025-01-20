@@ -6,17 +6,22 @@ def guessAge():
     minAge = 15
     maxAge = 30
     guessed = False
-    
+
     while not guessed:
-        age_guess = random.randint(minAge, maxAge)
-        ui = input(f"Are you {age_guess} years old? (y/n): ").strip().lower()
+        age_guess = int((maxAge+minAge)/2)
+        ui = input(f"Are you at least {age_guess} years old? (y/n): ").strip().lower()
         if ui == "y":
-            print(f"{name}, you are {age_guess} years old!")
-            guessed = True
+            ui_2 = input(f"Are you {age_guess} years old? (y/n): ").strip().lower()
+            if ui_2 == "y":
+                print(f"{name}, you are {age_guess} years old!")
+                guessed = True
+            elif(ui_2):
+                minAge = age_guess
+                print("Rats")
         elif ui == "n":
+            maxAge = age_guess
             print("Rats")
         else:
             print("Please enter 'y' for yes or 'n' for no.")
-
+            
 guessAge()
-
