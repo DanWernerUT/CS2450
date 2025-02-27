@@ -10,14 +10,15 @@ Though by learning some Molang (*Minecraft's scripting language*) I learned how 
 
 # Date 1.31.25 - Subject:
 
-# Date 2.7.25  - Subject:
+# Date 2.7.25  - Subject: 
 
 # Date 2.14.25 - Subject:
 
 # Date 2.21.25 - Subject:
-    This week I went to a career fair, applied to some jobs, assisted in presented our presentation, and wrote some c++ code
-    c++ tests no work until do
+    This week I went to a career fair, applied to some jobs, assisted in presented our presentation, wrote some c++ code and donated plasma
+    
 # Date 2.28.25 - Subject:
+    I finished filling out my fafsa this week, wrote c++ code for 3005 assignments 14 & 15, reset my little brothers laptop since he had a virus, applied new thermal paste to my gpu, bought a new microphone to use at my desk, and got to the final boss of Hollow Knight, have yet to kill it though, current game completion is 94%/115%.
 
 # Date 3.7.25  - Subject:
 
